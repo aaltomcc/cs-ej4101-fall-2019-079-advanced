@@ -2,3 +2,10 @@ baseURL = ""
 languageCode = "en-us"
 title = "Tech Dabble"
 theme = "m10c-fork"
+
+[params]
+  [params.style]
+    darkestColor = "#210"
+    darkColor = "#433c35"
+    lightColor = "#c4bfaf"
+    primaryColor = "#ee8a00"
