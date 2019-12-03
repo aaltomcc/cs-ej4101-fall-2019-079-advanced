@@ -3,7 +3,12 @@ languageCode = "en-us"
 title = "Tech Dabble"
 theme = "m10c-fork"
 
+
 [params]
+  author = "Tegu"
+  avatar = "avatar.png"
+  description = "Pondering about technology"
+
   [params.style]
     darkestColor = "#210"
     darkColor = "#433c35"
