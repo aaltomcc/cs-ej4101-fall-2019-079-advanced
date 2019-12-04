@@ -1,0 +1,19 @@
+# The Hugo theme requires at least version 0.55 which is not
+# available in Ubuntu LTS repositories
+before_install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.60.1/hugo_extended_0.60.1_Linux-64bit.deb
+  - echo "f70367bceaa1aee208e876b635a4874318c140ac5b32ffab96050f93aaa3ffab  hugo_extended_0.60.1_Linux-64bit.deb" > hugo_checksum.txt
+  - sha256sum --check hugo_checksum.txt || exit 1
+  - sudo dpkg --install hugo_extended_0.60.1_Linux-64bit.deb
+
+script:
+  - hugo
+
+deploy:
+  provider: pages
+  local_dir: public
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
