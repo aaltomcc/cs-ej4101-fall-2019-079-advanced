@@ -20,5 +20,15 @@
       <description>DevOps is something I have heard of many times all around. However, I have not really taken a deeper look on what is it, so I took this course in order to understand it better. I have used Linux for some years in various occasions both on the desktop and on the server. The server use in particular has made me interested in server automation, since it takes some time to set a server up manually.</description>
     </item>
     
+    <item>
+      <title>Avatar</title>
+      <link>/cs-ej4101-fall-2019-079-advanced/posts/avatar/</link>
+      <pubDate>Tue, 03 Dec 2019 16:49:36 +0200</pubDate>
+      
+      <guid>/cs-ej4101-fall-2019-079-advanced/posts/avatar/</guid>
+      <description> Below is the real-time version of the avatar at the top of this site. It is a rudimentary implementation of the classic tunnel effect running on software (no hardware acceleration, so prepare for high processor load). The inspiration came from an article on the tunnel effect in a finnish computer culture magazine Skrolli.
+no canvas support :(  #canvas { border-radius: 50%; }   </description>
+    </item>
+    
   </channel>
 </rss>
