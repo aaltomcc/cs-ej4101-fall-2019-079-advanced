@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/cs-ej4101-fall-2019-079-advanced"
 languageCode = "en-us"
 title = "Tech Dabble"
 theme = "m10c-fork"
