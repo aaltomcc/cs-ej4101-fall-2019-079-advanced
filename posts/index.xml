@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tech Dabble</title>
+    <link>/cs-ej4101-fall-2019-079-advanced/posts/</link>
+    <description>Recent content in Posts on Tech Dabble</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2019 17:53:29 +0200</lastBuildDate>
+    
+	<atom:link href="/cs-ej4101-fall-2019-079-advanced/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This course 079</title>
+      <link>/cs-ej4101-fall-2019-079-advanced/posts/this-course-079/</link>
+      <pubDate>Tue, 03 Dec 2019 17:53:29 +0200</pubDate>
+      
+      <guid>/cs-ej4101-fall-2019-079-advanced/posts/this-course-079/</guid>
+      <description>DevOps is something I have heard of many times all around. However, I have not really taken a deeper look on what is it, so I took this course in order to understand it better. I have used Linux for some years in various occasions both on the desktop and on the server. The server use in particular has made me interested in server automation, since it takes some time to set a server up manually.</description>
+    </item>
+    
+  </channel>
+</rss>
